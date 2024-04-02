@@ -1,3 +1,6 @@
+# Name : Ben Klein
+# Email : kleinbw@mail.uc.edu
+# Brief Description : Defines the kleinbw function
 
 
 def kleinbw(n):
@@ -16,5 +19,6 @@ def kleinbw(n):
         n >>= 1
     return count
 
-
-    
+    if __name__ == "__main__":
+        n = 3
+        print(kleinbw(n))
