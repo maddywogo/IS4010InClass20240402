@@ -9,13 +9,14 @@
 # Anything else that's relevant:
 
 
-def is_palindrome(x):
-    # Convert the integer to a string
-    x_str = str(x)
+if __name__ == "__main__":
+    def patel5a5(x):
+        # Convert the integer to a string
+        x_str = str(x)
+        
+        # Check if the string is equal to its reverse
+        return x_str == x_str[::-1]
     
-    # Check if the string is equal to its reverse
-    return x_str == x_str[::-1]
-
-# Example usage
-x = 121
-print(is_palindrome(x))  # Output: True
+    # Example usage
+    x = 121
+    print(patel5a5(x))  # Output: True
