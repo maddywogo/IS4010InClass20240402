@@ -39,7 +39,6 @@ def wogomomr(s: str) -> int:
     
     return total
 
-# Example usage
 if __name__ =="__main__":
 
     print(wogomomr("III"))      # Output: 3
